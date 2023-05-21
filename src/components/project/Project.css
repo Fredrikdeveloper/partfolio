@@ -1,0 +1,16 @@
+   .projects-body {
+    margin: 50px 0px;
+   } .Project-groups {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+ } .Project-group-card {
+    width: 250px;
+    height: 200px;
+
+    margin: 1rem;
+ } .Project-group-card img {
+   height: 170px;
+   width: 250px;
+ }

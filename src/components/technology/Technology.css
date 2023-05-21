@@ -1,0 +1,27 @@
+  .technology-body {
+    margin: 150px 0px;
+ } .technology-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} .technology-card {
+    width: 150px;
+    height: 150px;
+    margin: 1rem;
+} .technology-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 992px) {
+    .technology-card {
+        width: 130px;
+        height: 130px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .technology-card {
+        width: 100px;
+        height: 100px;
+    }
+}
